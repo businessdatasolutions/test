@@ -122,27 +122,60 @@
 
     <!-- JavaScript -->
     <script>
-      function updateLabelValue(labelId, value) {
-        document.getElementById(labelId).textContent = value;
-      }
-
       function updateSummary() {
-        var summary =
-          "Team/Individueel Score: " +
-          document.getElementById("team-individual-slider").value;
-        summary +=
-          "<br>Serieus/Fun Score: " +
-          document.getElementById("serious-fun-slider").value;
-        summary +=
-          "<br>Competitie Score: " +
-          document.getElementById("competition-slider").value;
-        summary +=
-          "<br>AI Kennisniveau Score: " +
-          document.getElementById("ai-knowledge-slider").value;
+    var teamIndividualScore = document.getElementById('team-individual-slider').value;
+    var seriousFunScore = document.getElementById('serious-fun-slider').value;
+    var competitionScore = document.getElementById('competition-slider').value;
+    var aiKnowledgeScore = document.getElementById('ai-knowledge-slider').value;
 
-        document.getElementById("summary").innerHTML = summary;
-        document.getElementById("summary").style.display = "block";
-      }
+    var summary = 'Bedankt voor uw input. We gaan voor u een workshop ontwikkelen die ';
+
+    // Team of Individueel
+    if (teamIndividualScore < 3) {
+        summary += 'vooral gericht zal zijn op individuele ontwikkeling ';
+    } else if (teamIndividualScore > 3) {
+        summary += 'vooral gericht zal zijn op het ontwikkelen van teams ';
+    } else {
+        summary += 'een balans biedt tussen teamontwikkeling en individuele groei ';
+    }
+    summary += '(score ' + teamIndividualScore + ') ';
+
+    // Serieus of Fun
+    if (seriousFunScore < 3) {
+        summary += 'met behulp van serious gaming ';
+    } else if (seriousFunScore > 3) {
+        summary += 'met een focus op fun en interactie ';
+    } else {
+        summary += 'die zowel serieuze als leuke elementen bevat ';
+    }
+    summary += '(score ' + seriousFunScore + '). ';
+
+    // Mate van Competitie
+    summary += 'De workshop zal ';
+    if (competitionScore < 3) {
+        summary += 'weinig competitieve elementen bevatten ';
+    } else if (competitionScore > 3) {
+        summary += 'veel competitieve elementen bevatten ';
+    } else {
+        summary += 'een evenwichtige mate van competitie hebben ';
+    }
+    summary += '(score ' + competitionScore + ') ';
+
+    // Niveau van AI Kennis
+    summary += 'en zal ';
+    if (aiKnowledgeScore < 3) {
+        summary += 'vooral gericht zijn op kennismaking met AI ';
+    } else if (aiKnowledgeScore > 3) {
+        summary += 'zich richten op geavanceerde AI-concepten ';
+    } else {
+        summary += 'elementen voor zowel debutanten als wizards bevatten ';
+    }
+    summary += '(score ' + aiKnowledgeScore + ').';
+
+    document.getElementById('summary').innerHTML = summary;
+    document.getElementById('summary').style.display = 'block';
+}
+
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
