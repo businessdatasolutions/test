@@ -1,0 +1,26 @@
+[
+    {
+        "category": "Operations Research and Optimization",
+        "title": "Intro to Operations Research",
+        "description": "An introductory course on the fundamentals of operations research and optimization techniques.",
+        "url": "https://example.com/course1"
+    },
+    {
+        "category": "Queueing Theory",
+        "title": "Basics of Queueing Theory",
+        "description": "Explore the core concepts of queueing theory and its applications in various industries.",
+        "url": "https://example.com/course2"
+    },
+    {
+        "category": "Probability and Stochastic Processes",
+        "title": "Stochastic Processes and Applications",
+        "description": "A comprehensive course on probability and stochastic processes, including real-world examples.",
+        "url": "https://example.com/course3"
+    },
+    {
+        "category": "Discrete Mathematics",
+        "title": "Discrete Mathematics for Computer Science",
+        "description": "Learn about discrete mathematics with a focus on its importance in computer science.",
+        "url": "https://example.com/course4"
+    }
+]

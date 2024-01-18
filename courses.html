@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OR Courses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="operationsResearch" class="carousel slide" data-bs-ride="carousel">
+    <!-- Operations Research and Optimization Carousel goes here -->
+</div>
+
+<div id="queueingTheory" class="carousel slide" data-bs-ride="carousel">
+    <!-- Queueing Theory Carousel goes here -->
+</div>
+
+<div id="probabilityStochastic" class="carousel slide" data-bs-ride="carousel">
+    <!-- Probability and Stochastic Processes Carousel goes here -->
+</div>
+
+<div id="discreteMathematics" class="carousel slide" data-bs-ride="carousel">
+    <!-- Discrete Mathematics Carousel goes here -->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // JavaScript to dynamically load and display courses from JSON file
+    document.addEventListener("DOMContentLoaded", function() {
+    // Fetch the JSON file
+    fetch('courses.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(course => {
+                let carouselId;
+
+                // Determine which carousel to add the card to based on the category
+                switch(course.category) {
+                    case 'Operations Research and Optimization':
+                        carouselId = 'operationsResearch';
+                        break;
+                    case 'Queueing Theory':
+                        carouselId = 'queueingTheory';
+                        break;
+                    case 'Probability and Stochastic Processes':
+                        carouselId = 'probabilityStochastic';
+                        break;
+                    case 'Discrete Mathematics':
+                        carouselId = 'discreteMathematics';
+                        break;
+                }
+
+                // Create the card HTML
+                const cardHtml = `
+                    <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">${course.title}</h5>
+                                <p class="card-text">${course.description}</p>
+                                <a href="${course.url}" class="btn btn-primary">Go to Course</a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                // Append the card to the appropriate carousel
+                document.getElementById(carouselId).innerHTML += cardHtml;
+            });
+
+            // Make the first item of each carousel active
+            document.querySelectorAll('.carousel').forEach(carousel => {
+                carousel.querySelector('.carousel-item').classList.add('active');
+            });
+        })
+        .catch(error => console.error('Error loading the courses:', error));
+});
+
+</script>
+
+</body>
+</html>
