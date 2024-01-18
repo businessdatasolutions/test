@@ -73,5 +73,20 @@
         "title": "Knowledge Graph Construction Demo from raw text using an LLM",
         "description": "Code & Application: https://github.com/neo4j/NaLLM Use the repo to run a demo of the app.",
         "videoUrl": "https://youtu.be/Hg4ahTQlBm0?si=KSym-6k8TH93B5cv"
+    },
+    {
+        "title": "Building an Open Source Data Stack",
+        "description": "By the end of the workshop, you should have the context you need to design your own analytics stack using open-source tools.",
+        "videoUrl": "https://youtu.be/S1wPKjWFmqo?si=2TbvYvUOkLKYqLFR"
+    },
+    {
+        "title": "Using Copilot with Jupyter Notebooks",
+        "description": "If you want to learn how to use GitHub Copilot, the AI pair programmer that helps you write code faster and better, then this video is for you.",
+        "videoUrl": "https://youtu.be/QS_bh-3qKdw?si=WWl88d3qwL_rNsBu"
+    },
+    {
+        "title": "Using Copilot with Jupyter Notebooks",
+        "description": "earn how to record, transcribe, and automate your journaling with Python, OpenAI Whisper, and the terminal!",
+        "videoUrl": "https://youtu.be/xDKAX2_pul0?si=X--HtiTOcRJSvQvY"
     }
 ]
