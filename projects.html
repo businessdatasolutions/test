@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Driven Decision Making Course Projects</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Data Driven Decision Making Course Projects</h1>
+    <div id="projects-container" class="row">
+        <!-- Projects will be loaded here -->
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('projects.json')
+            .then(response => response.json())
+            .then(projects => {
+                const projectsContainer = document.getElementById('projects-container');
+                projects.forEach(project => {
+                    const card = document.createElement('div');
+                    card.className = 'col-md-4 mb-4';
+                    card.innerHTML = `
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">${project.title}</h5>
+                                <p class="card-text">${project.description}</p>
+                                <a href="${project.videoUrl}" class="btn btn-primary" target="_blank">Watch Video</a>
+                            </div>
+                        </div>
+                    `;
+                    projectsContainer.appendChild(card);
+                });
+            })
+            .catch(error => {
+                console.error('Error loading projects:', error);
+            });
+    });
+</script>
+
+</body>
+</html>

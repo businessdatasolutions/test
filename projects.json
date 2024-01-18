@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Explore Tensorflow with FastAPI",
+        "description": "Learn to integrate TensorFlow with FastAPI for advanced data processing.",
+        "videoUrl": "https://youtu.be/DSHfHT5qnGc?si=EjjGBbIuL2oiXfoT"
+    },
+    {
+        "title": "Baserow with Python",
+        "description": "Discover how to use Baserow with Python for efficient database management.",
+        "videoUrl": "https://youtu.be/_FLpOlyH-rs?si=fEuyHxdWsT7NRx3v"
+    },
+    {
+        "title": "SuperDuperDB",
+        "description": "Dive into SuperDuperDB to understand its features and capabilities.",
+        "videoUrl": "https://youtu.be/MT3oiLHRZ7Y?si=4bFkCKtH0GMUvz-5"
+    },
+    // ... more projects
+]
