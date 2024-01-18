@@ -33,5 +33,30 @@
         "title": "Realtime Streamlit Dashboard",
         "description": "Dive into the dynamic capabilities of Streamlit for creating real-time dashboards.",
         "videoUrl": "https://youtu.be/YRA90MX4XiM?si=8ZjvGuZI2moM9QN1"
+    },
+    {
+        "title": "Mapping with Python & Folium",
+        "description": "Create maps from raw CSV data in Python. Learn how to read in data, transform it to extract the information and create maps.",
+        "videoUrl": "https://youtu.be/H8Ypb8Ei9YA?si=k6Ij8rq1GQcw1lny"
+    },
+    {
+        "title": "Prototype ML with Visual Blocks",
+        "description": "In this session, you will build an ML application in just 20 minutes using a no-code system called Visual Blocks. There are many examples to try, from AR virtual try-on experiences to LLM-driven trip planner. ",
+        "videoUrl": "https://youtu.be/VyQAVSKuhq4?si=KRivkXAeVbnKAFgm"
+    },
+    {
+        "title": "Effortless Data Analysis and Cleaning with Data Wrangler",
+        "description": "Data Wrangler is a code-centric data cleaning tool that is integrated into VS Code and VS Code Jupyter Notebooks.",
+        "videoUrl": "https://www.youtube.com/watch?v=gc0Hm1NpYPo&t=650s&ab_channel=VisualStudioCode"
+    },
+    {
+        "title": "The ChatGPT API Beginners Guide",
+        "description": "Learn how to build your own ChatGPT chatbot with the ChatGPT API, Python, and OpenAI in this tutorial.",
+        "videoUrl": "https://youtu.be/7p7kJvckrFE?si=krUvYjb9r1qJBxkp"
+    },
+    {
+        "title": "How to Make a Game in Python",
+        "description": "An introduction to Python Game Development using the Pygame module, a simple 2D graphics library in Python.",
+        "videoUrl": "https://youtu.be/waY3LfJhQLY?si=xNptW4kwJzu6JNy3"
     }
 ]
