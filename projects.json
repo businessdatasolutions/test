@@ -16,22 +16,22 @@
     },
     {
         "title": "Explain testing with Playwright",
-        "description": "Uncover the intricacies of web application testing using Playwright. This session guides you through the advanced testing capabilities of Playwright, demonstrating how to automate and streamline your testing processes for web applications, ensuring robust and error-free deployment.",
+        "description": "Uncover the intricacies of web application testing using Playwright.",
         "videoUrl": "https://youtu.be/0Oc2aAR17BU?si=whRkGIk2YZl9Crgc"
     },
     {
         "title": "Sentiment analysis in Google Sheets",
-        "description": "Explore the fascinating world of sentiment analysis directly within Google Sheets. This tutorial demonstrates how to harness the power of Google Sheets for analyzing and interpreting sentiment in text data, offering a unique approach to data analysis without the need for complex programming.",
+        "description": "Explore the fascinating world of sentiment analysis directly within Google Sheets. ",
         "videoUrl": "https://youtu.be/Mz9JG9CUXXY?si=GQc3GBCCI05Oie_A"
     },
     {
         "title": "Quick app development with Python and Taipy",
-        "description": "Accelerate your app development journey with Python and Taipy. Learn the essentials of rapid application development using Python in conjunction with Taipy, a powerful framework. This walkthrough covers how to quickly build and deploy interactive applications, emphasizing efficiency and ease of use.",
+        "description": "Learn how to quickly build and deploy interactive applications, emphasizing efficiency and ease of use.",
         "videoUrl": "https://youtu.be/v_Lnd3EoEHk?si=t-jc-xJy9jsRz5FV"
     },
     {
         "title": "Realtime Streamlit Dashboard",
-        "description": "Dive into the dynamic capabilities of Streamlit for creating real-time dashboards. This tutorial showcases how to leverage Streamlit for building interactive and real-time data dashboards, ideal for monitoring, analysis, and decision-making processes in various domains.",
+        "description": "Dive into the dynamic capabilities of Streamlit for creating real-time dashboards.",
         "videoUrl": "https://youtu.be/YRA90MX4XiM?si=8ZjvGuZI2moM9QN1"
     }
 ]
