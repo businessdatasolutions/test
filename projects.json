@@ -58,5 +58,20 @@
         "title": "How to Make a Game in Python",
         "description": "An introduction to Python Game Development using the Pygame module, a simple 2D graphics library in Python.",
         "videoUrl": "https://youtu.be/waY3LfJhQLY?si=xNptW4kwJzu6JNy3"
+    },
+    {
+        "title": "Physics Simulations With Python and PyMunk",
+        "description": "Introduction to PyMunk with demos and a full tutorial.",
+        "videoUrl": "https://youtu.be/tLsi2DeUsak?si=0E0qufk4DHKOzLoy"
+    },
+    {
+        "title": "Simulating Real-Life Processes in Python",
+        "description": "Learn how to simulate real-world processes in Python with SimPy.",
+        "videoUrl": "https://youtu.be/8SLk_uRRcgc?si=QvxyI6q1LWYenkck"
+    },
+    {
+        "title": "Knowledge Graph Construction Demo from raw text using an LLM",
+        "description": "Code & Application: https://github.com/neo4j/NaLLM Use the repo to run a demo of the app.",
+        "videoUrl": "https://youtu.be/Hg4ahTQlBm0?si=KSym-6k8TH93B5cv"
     }
 ]
