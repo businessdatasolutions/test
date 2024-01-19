@@ -108,5 +108,15 @@
         "title": "Dataiku for Generative AI",
         "description": "Move beyond the lab and build real and safe Generative AI applications at enterprise scale.",
         "videoUrl": "https://youtu.be/UVbrpX8Zkn8?si=kjcpb8YZkQtS9IC5"
+    },
+    {
+        "title": "Apache Superset | Open Source Data Exploration & Vizualization Platform",
+        "description": "In this video, we explore Superset, a free and open-source data exploration & visualization tool.",
+        "videoUrl": "https://youtu.be/_1_rg5gAAjE?si=xKQQDQESwoY5TVA1"
+    },
+    {
+        "title": "Assistant API No-Code Integration: OpenAI Meets Zapier For Smart Automations ",
+        "description": "The OpenAI Assistant API empowers developers and non-developers alike to build custom AI assistants within their applications, now with the added convenience of no-code integration using Zapier.",
+        "videoUrl": "https://youtu.be/IPdL5QOuPMo?si=aDWGySIVzD5WzoV0"
     }
 ]
