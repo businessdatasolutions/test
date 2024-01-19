@@ -103,5 +103,10 @@
         "title": "Tour of FlutterFlow",
         "description": "This is your first 10 minutes of FlutterFlow.",
         "videoUrl": "https://youtu.be/GpXjU-ieAKU?si=EyS_IPLJIekTEl28"
+    },
+    {
+        "title": "Dataiku for Generative AI",
+        "description": "Move beyond the lab and build real and safe Generative AI applications at enterprise scale.",
+        "videoUrl": "https://youtu.be/UVbrpX8Zkn8?si=kjcpb8YZkQtS9IC5"
     }
 ]
