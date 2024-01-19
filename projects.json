@@ -88,5 +88,20 @@
         "title": "OpenAI Whisper and Python: Easy Speech to Text",
         "description": "Learn how to record, transcribe, and automate your journaling with Python, OpenAI Whisper, and the terminal!",
         "videoUrl": "https://youtu.be/xDKAX2_pul0?si=X--HtiTOcRJSvQvY"
+    },
+    {
+        "title": "Make Your Own Visual Novel",
+        "description": "Ren'Py is a powerful, easy-to-use, and FREE visual novel game engine based on the Python programming language.",
+        "videoUrl": "https://youtu.be/vith10gG8L4?si=i2lXOFV-yYG3S7d0"
+    },
+    {
+        "title": "How to build your first app using Power Apps",
+        "description": "Create low code Power Apps to automate everyday tasks. AI-driven Copilot capabilities make it easy to interact with your app and its data using natural language. ",
+        "videoUrl": "https://youtu.be/UwbCIZTx59I?si=fqpLrYZ9Yyia2NRR"
+    },
+    {
+        "title": "Tour of FlutterFlow",
+        "description": "This is your first 10 minutes of FlutterFlow.",
+        "videoUrl": "https://youtu.be/GpXjU-ieAKU?si=EyS_IPLJIekTEl28"
     }
 ]
