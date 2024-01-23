@@ -115,8 +115,23 @@
         "videoUrl": "https://youtu.be/_1_rg5gAAjE?si=xKQQDQESwoY5TVA1"
     },
     {
-        "title": "Assistant API No-Code Integration: OpenAI Meets Zapier For Smart Automations ",
+        "title": "Assistant API No-Code Integration: OpenAI Meets Zapier For Smart Automations",
         "description": "The OpenAI Assistant API empowers developers and non-developers alike to build custom AI assistants within their applications, now with the added convenience of no-code integration using Zapier.",
         "videoUrl": "https://youtu.be/IPdL5QOuPMo?si=aDWGySIVzD5WzoV0"
+    },
+    {
+        "title": "Keras: Shortcut to AI mastery",
+        "description": "This workshop will explore the powerful Keras 3 API and walk through deep learning best practices, how to write a simple model, and run it with a backend of your choice.",
+        "videoUrl": "https://youtu.be/0HcYOcFBQlk?si=JRY4jLGF0rw_mKZt"
+    },
+    {
+        "title": "Build a CRM application",
+        "description": "CRUD mastery with Django.",
+        "videoUrl": "https://youtu.be/pqWyUAT38e0?si=eVdY7tO9HiYFWrR-"
+    },
+    {
+        "title": "Deploy a Django web app to Python Anywhere",
+        "description": "It took some time, but it's finally here. A free way to deploy your Django web app.",
+        "videoUrl": "https://youtu.be/xtnUwvjOThg?si=VowokUHztM4O_iOg"
     }
 ]
