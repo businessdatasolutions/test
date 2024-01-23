@@ -6,15 +6,15 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>M3DM Individual Projects</title>
+    <title>M3DM Data Mining Projects</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/quartz/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/united/bootstrap.min.css"
       rel="stylesheet"
     />
   </head>
   <body>
     <div class="container mt-5">
-      <h1 class="mb-4">M3DM Individual Projects</h1>
+      <h1 class="mb-4">M3DM Data Mining Projects</h1>
       <p>
         We have curated an extensive collection of videos tailored to enhance
         your understanding of data science. This selection spans various key
@@ -31,26 +31,48 @@
         will have developed a minimum viable data product, showcasing your
         newfound skills and understanding.
       </p>
+      <hr class="bg-white border-2 border-top border-white" />
       <div
         id="projects-container"
         class="row"
       >
         <!-- Projects will be loaded here -->
       </div>
+      <div class="d-flex justify-content-between my-4">
+        <button
+          id="prevButton"
+          class="btn btn-primary"
+        >
+          Previous
+        </button>
+        <button
+          id="nextButton"
+          class="btn btn-primary"
+        >
+          Next
+        </button>
+      </div>
     </div>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        fetch("projects.json")
-          .then((response) => response.json())
-          .then((projects) => {
-            const projectsContainer =
-              document.getElementById("projects-container");
-            projects.forEach((project) => {
-              const videoId = extractYoutubeId(project.videoUrl);
-              const card = document.createElement("div");
-              card.className = "col-md-4 mb-4";
-              card.innerHTML = `
+        let currentPage = 0;
+        const projectsPerPage = 15;
+
+        function loadProjects(projects, page) {
+          const projectsContainer =
+            document.getElementById("projects-container");
+          projectsContainer.innerHTML = ""; // Clear current projects
+
+          const start = page * projectsPerPage;
+          const end = start + projectsPerPage;
+          const paginatedProjects = projects.slice(start, end);
+
+          paginatedProjects.forEach((project) => {
+            const videoId = extractYoutubeId(project.videoUrl);
+            const card = document.createElement("div");
+            card.className = "col-md-4 mb-4";
+            card.innerHTML = `
                             <div class="card d-flex flex-column h-100">
                                 <div class="card-body">
                                     <h5 class="card-title">${project.title}</h5>
@@ -61,8 +83,45 @@
                                 </div>
                             </div>
                         `;
-              projectsContainer.appendChild(card);
-            });
+            projectsContainer.appendChild(card);
+          });
+        }
+
+        function updateButtons(page, totalProjects) {
+          const totalPages = Math.ceil(totalProjects / projectsPerPage);
+          document.getElementById("prevButton").disabled = page === 0;
+          document.getElementById("nextButton").disabled =
+            page === totalPages - 1;
+        }
+
+        fetch("projects.json")
+          .then((response) => response.json())
+          .then((projects) => {
+            loadProjects(projects, currentPage);
+            updateButtons(currentPage, projects.length);
+
+            document
+              .getElementById("prevButton")
+              .addEventListener("click", () => {
+                if (currentPage > 0) {
+                  currentPage -= 1;
+                  loadProjects(projects, currentPage);
+                  updateButtons(currentPage, projects.length);
+                }
+              });
+
+            document
+              .getElementById("nextButton")
+              .addEventListener("click", () => {
+                if (
+                  currentPage <
+                  Math.ceil(projects.length / projectsPerPage) - 1
+                ) {
+                  currentPage += 1;
+                  loadProjects(projects, currentPage);
+                  updateButtons(currentPage, projects.length);
+                }
+              });
           })
           .catch((error) => {
             console.error("Error loading projects:", error);
