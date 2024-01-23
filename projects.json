@@ -133,5 +133,20 @@
         "title": "Deploy a Django web app to Python Anywhere",
         "description": "It took some time, but it's finally here. A free way to deploy your Django web app.",
         "videoUrl": "https://youtu.be/xtnUwvjOThg?si=VowokUHztM4O_iOg"
+    },
+    {
+        "title": "Integrating Foundation Models into Your Code with Amazon Bedrock",
+        "description": "Discover Amazon Bedrock and learn how to integrate generative AI models from leading AI startups and Amazon into your applications.",
+        "videoUrl": "https://youtu.be/ab1mbj0acDo?si=mLKoBd4NtMj7CUai"
+    },
+    {
+        "title": "Introduction to Generative AI Studio",
+        "description": "Prototype and customize generative AI models with Generative AI Studio, a product on Vertex AI.",
+        "videoUrl": "https://youtu.be/-7nf5EJ2Fsc?si=1c-HwSrcyT69EfBA"
+    },
+    {
+        "title": "Build powerful AI apps with Copilot in Microsoft Fabric",
+        "description": "Build new analytics and AI models and supercharge your intelligent app strategy across your organization.",
+        "videoUrl": "https://youtu.be/rGA4K18mSwI?si=4Pa3ry2m4oVscXXp"
     }
 ]
