@@ -165,8 +165,18 @@
         "videoUrl": "https://youtu.be/3YPeh-3AFmM?si=CuBqIlzDDw1Xrr-B"
     },
     {
-        "title": "Mr. Maeda's Cozy AI Kitchen: AI-Driven Design with Tim Allen",
+        "title": "AI-Driven Design",
         "description": "Guest Tim Allen joins John Maeda to discuss AI-Driven Design and Craftsmanship. They also have some sample code to help them go grocery shopping and cook up a great meal.",
         "videoUrl": "https://youtu.be/_ogiNGTxke4?si=pXfVkDAL9FtjwgcP"
+    },
+    {
+        "title": "AI-copiloted Design Thinking",
+        "description": "Please join John Maeda, Microsoft’s VP of Design and AI, along with his special guest, Ben Sheppard, McKinsey & Company’s Global Design Leader, as they cook up some special #AI recipes around Design Thinking.",
+        "videoUrl": "https://youtu.be/6Jr6z_YvJhc?si=6i7659MB2fPhmpY4"
+    },
+    {
+        "title": "AI Secure Insights",
+        "description": "John’s guest this week is Tracy Reinhold, Chief Security Officer for Everbridge.  Together, they discuss ideas on how to keep your company more secure and how AI can help in doing so.",
+        "videoUrl": "https://youtu.be/-w7J7jXg-CA?si=7f6c-e6_ow-_B2ND"
     }
 ]
