@@ -94,6 +94,13 @@
             page === totalPages - 1;
         }
 
+        function scrollToProjects() {
+          document.getElementById("projects-container").scrollIntoView({
+            behavior: "smooth", // Optional: for smooth scrolling
+            block: "start",
+          });
+        }
+
         fetch("projects.json")
           .then((response) => response.json())
           .then((projects) => {
@@ -107,6 +114,7 @@
                   currentPage -= 1;
                   loadProjects(projects, currentPage);
                   updateButtons(currentPage, projects.length);
+                  scrollToProjects(); // Call to scroll function
                 }
               });
 
@@ -120,6 +128,7 @@
                   currentPage += 1;
                   loadProjects(projects, currentPage);
                   updateButtons(currentPage, projects.length);
+                  scrollToProjects(); // Call to scroll function
                 }
               });
           })
