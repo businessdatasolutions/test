@@ -148,5 +148,20 @@
         "title": "Build powerful AI apps with Copilot in Microsoft Fabric",
         "description": "Build new analytics and AI models and supercharge your intelligent app strategy across your organization.",
         "videoUrl": "https://youtu.be/rGA4K18mSwI?si=4Pa3ry2m4oVscXXp"
+    },
+    {
+        "title": "AutoGen Studio Tutorial - NO CODE AI Agent Builder",
+        "description": "AutoGen Studio was released, and it makes creating AI Agent teams super simple; basically, there is no code.",
+        "videoUrl": "https://youtu.be/mUEFwUU0IfE?si=-zaudT_dmaWNLQIp"
+    },
+    {
+        "title": "Neural Networks Explained from Scratch using Python",
+        "description": "An intuitive understanding of Neural Networks through Python code and detailed animations.",
+        "videoUrl": "https://youtu.be/9RN2Wr8xvro?si=MUg7y9vJiwExu7Sq"
+    },
+    {
+        "title": "How I Build AI WhatsApp Chatbots w/ Python",
+        "description": "Let's explore the WhatsApp API to build AI chatbotbots with pure Python.",
+        "videoUrl": "https://youtu.be/3YPeh-3AFmM?si=CuBqIlzDDw1Xrr-B"
     }
 ]
