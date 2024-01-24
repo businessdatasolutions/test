@@ -163,5 +163,10 @@
         "title": "How I Build AI WhatsApp Chatbots w/ Python",
         "description": "Let's explore the WhatsApp API to build AI chatbotbots with pure Python.",
         "videoUrl": "https://youtu.be/3YPeh-3AFmM?si=CuBqIlzDDw1Xrr-B"
+    },
+    {
+        "title": "Mr. Maeda's Cozy AI Kitchen: AI-Driven Design with Tim Allen",
+        "description": "Guest Tim Allen joins John Maeda to discuss AI-Driven Design and Craftsmanship. They also have some sample code to help them go grocery shopping and cook up a great meal.",
+        "videoUrl": "https://youtu.be/_ogiNGTxke4?si=pXfVkDAL9FtjwgcP"
     }
 ]
