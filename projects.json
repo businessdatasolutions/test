@@ -178,5 +178,25 @@
         "title": "AI Secure Insights",
         "description": "John’s guest this week is Tracy Reinhold, Chief Security Officer for Everbridge.  Together, they discuss ideas on how to keep your company more secure and how AI can help in doing so.",
         "videoUrl": "https://youtu.be/-w7J7jXg-CA?si=7f6c-e6_ow-_B2ND"
+    },
+    {
+        "title": "Teacher x Large Language Models",
+        "description": "In this Lab Session, we partnered with beloved programming teacher and creator of @TheCodingTrain Dan Shiffman to create ShiffBot, an AI tool that helps you learn to code in p5.js without just giving you the answers.",
+        "videoUrl": "https://youtu.be/FBFcNPa36m8?si=PY2SpsJBwTHXmxcZ"
+    },
+    {
+        "title": "Exploring Timing Attacks with Python",
+        "description": "Timing Attacks are a particular type of attacks that use flaws in code that impact the execution time to discover hints about secrets. Discover how it works using Python.",
+        "videoUrl": "https://youtu.be/RWj4xfQxQQ8?si=twCOk4Vka6JRvw8E"
+    },
+    {
+        "title": "Build Machine Learning Applications Easily with Gradio in Python",
+        "description": "Today we learn about Gradio, which allows us to easily build machine learning applications with graphical user interfaces.",
+        "videoUrl": "https://youtu.be/3DGLznJorT8?si=2NeTxnU4z6-s7m0_"
+    },
+    {
+        "title": "How to Use Gen-2",
+        "description": "Use this tutorial to learn how to use Gen-2 in Runway.",
+        "videoUrl": "https://youtu.be/dq8GZeDEqH8?si=rZIJmq80kBiFu81S"
     }
 ]
