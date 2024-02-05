@@ -203,5 +203,10 @@
         "title": "Introducing Nextcloud Hub 7: The next generation of integrated collaboration",
         "description": "Nextcloud Hub is the most advanced on-premises collaboration platform in the world. From new integration features to AI enhancements and a completely rewritten Files app, we are sure Hub 7 delivers the solutions you need to foster efficiency, collaboration and productivity - without losing control over your data!",
         "videoUrl": "https://youtu.be/YohQfObl3I8?si=rOGWGkDVjrUgWpe9"
+    },
+    {
+        "title": "Building Contextual ChatBot using LLMs, Vector Databases & Python",
+        "description": "In this tutorial, I will demonstrate building a chatbot using OpenAI API and LLMs available on HuggingFace.",
+        "videoUrl": "https://youtu.be/xtv3Pee6uhk?si=cdfDKGDJ8iP7g5B_"
     }
 ]
