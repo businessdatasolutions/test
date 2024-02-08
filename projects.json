@@ -208,5 +208,15 @@
         "title": "Building Contextual ChatBot using LLMs, Vector Databases & Python",
         "description": "In this tutorial, I will demonstrate building a chatbot using OpenAI API and LLMs available on HuggingFace.",
         "videoUrl": "https://youtu.be/xtv3Pee6uhk?si=cdfDKGDJ8iP7g5B_"
+    },
+    {
+        "title": "How To Use AI To Learn Your Research Field with Perplexity AI",
+        "description": "Use Perplexity AI to learn your research field and find research articles.",
+        "videoUrl": "https://youtu.be/miMR91GZGvE?si=q20-GWBsy71bglgv"
+    },
+    {
+        "title": "Getting Started with Polars",
+        "description": "Have you heard of this Polars thing? How is it different from Pandas? Do you want to check it out? In this workshop you will get exposed to Polars with a real-world dataset.",
+        "videoUrl": "https://youtu.be/CJ0f45evuME?si=CvwqECvYrZdiNNPA"
     }
 ]
