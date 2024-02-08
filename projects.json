@@ -218,5 +218,10 @@
         "title": "Getting Started with Polars",
         "description": "Have you heard of this Polars thing? How is it different from Pandas? Do you want to check it out? In this workshop you will get exposed to Polars with a real-world dataset.",
         "videoUrl": "https://youtu.be/CJ0f45evuME?si=CvwqECvYrZdiNNPA"
+    },
+    {
+        "title": "Using AI To Build A Game From Scratch (NO Experience)",
+        "description": "Here's a breakdown of how I used AI to make a video game.",
+        "videoUrl": "https://youtu.be/IyKKhxYJ4U4?si=ozzZcRNiai34sFj1"
     }
 ]
